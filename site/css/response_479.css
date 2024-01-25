@@ -1,0 +1,255 @@
+@media (max-width: 479px){
+    /*---------------
+        Main styles
+    ---------------*/
+    body{
+        line-height: 1.4;
+    }
+
+    .main_title{
+        font-size: 24px;
+    }
+
+
+    .box_info{
+        padding-left: 37px;
+    }
+
+    .box_info:before{
+        top: 6px;
+
+        width: 16px;
+        height: 16px;
+
+        background-size: contain;
+    }
+
+
+    .slider-pagination{
+        height: 5px;
+    }
+
+    .slider-pagination .slider-dot{
+        width: 5px;
+        height: 5px;
+        margin: 0 3px;
+    }
+
+
+    .link_btn a.charity_btn{
+        width: 100%;
+    }
+
+    /*---------------
+        Main section
+    ---------------*/
+    .first_section{
+        padding: 70px 0 37px;
+    }
+
+    .first_section .title{
+        font-size: 45px;
+    }
+
+    .first_section .desc{
+        margin-top: 10px;
+    }
+
+    .first_section .link_btn{
+        margin-top: 30px;
+    }
+
+    .first_section .wrap_map{
+        margin-left: 23px;
+    }
+
+    .first_section .photos .photo{
+        --integer-mn: 1;
+    }
+
+    .first_section .photos .photo:nth-child(4n + 1){
+        top: 18%;
+        left: 32%;
+    }
+
+    .first_section .photos .photo:nth-child(4n + 2){
+        top: 22%;
+        left: 56%;
+    }
+
+    .first_section .photos .photo:nth-child(4n + 3){
+        top: 56%;
+        left: 37%;
+    }
+
+    .first_section .photos .photo:nth-child(4n + 4){
+        top: 52%;
+        left: 64%;
+    }
+
+    .first_section .title .icon{
+        width: 45px;
+        margin: -12px 5px 0;
+    }
+
+
+    .equipment .grid{
+        margin-top: 20px;
+    }
+
+    .equipment .grid .item .data,
+    .equipment .grid .item:first-child .data{
+        padding: 9px 15px 12px;
+
+        text-align: center;
+    }
+
+    .equipment .grid .item .name .hidden_mob{
+        display: none;
+    }
+
+    .equipment .grid .item:first-child .price{
+        font-size: 20px;
+
+        margin-top: 5px;
+    }
+
+
+    .sect_amount .date{
+        font-size: 20px;
+    }
+
+    .sect_amount .box{
+        margin-top: 28px;
+    }
+
+    .sect_amount .line_data{
+        font-size: 12px;
+        margin-top: 10px;
+    }
+
+    .sect_amount .line_data .center{
+        font-size: 16px;
+    }
+
+    .sect_amount .line_data .col_l,
+    .sect_amount .line_data .col_r{
+        width: 50px;
+    }
+
+
+    .sect_requisites{
+        padding: 50px 0 66px;
+    }
+
+    .sect_requisites .info:after{
+        width: 67px;
+
+        background-image: url('../images/logo_centre2.png');
+    }
+
+    .sect_requisites .info .grid .icon{
+        width: 16px;
+        height: 16px;
+    }
+
+    .sect_requisites .info ul li{
+        font-size: 14px;
+    }
+
+    .sect_requisites .info ul li + li{
+        margin-top: 17px;
+    }
+
+    .sect_requisites .accordion .item + .item{
+        margin-top: 18px;
+    }
+
+    .sect_requisites .accordion .item .title{
+        font-size: 14px;
+
+        padding: 18px 16px;
+    }
+
+    .sect_requisites .accordion .item .title:after{
+        right: 25px;
+
+        width: 12px;
+        height: 12px;
+
+        border-width: 2px;
+    }
+
+    .sect_requisites .accordion .item .data{
+        font-size: 12px;
+        line-height: 1.8;
+
+        padding: 19px 9px 20px 16px;
+    }
+
+    .sect_requisites .box_info{
+        font-size: 12px;
+        line-height: 1.5;
+
+        padding-left: 49px;
+    }
+
+    .sect_requisites .box_info:before{
+        top: 21px;
+    }
+
+    /*---------------
+        Footer
+    ---------------*/
+    footer{
+        padding: 30px 0 48px;
+
+        border-radius: 10px 10px 0 0;
+    }
+
+    footer .title{
+        font-size: 24px;
+    }
+
+    footer .text_block{
+        font-size: 14px;
+        line-height: 2;
+
+        margin-top: 10px;
+    }
+
+    footer .gallery{
+        margin-top: 20px;
+    }
+
+    footer .line_btns{
+        margin-top: 19px;
+        margin-bottom: -15px;
+    }
+
+    footer .line_btns > *{
+        margin-bottom: 15px;
+    }
+
+    footer .line_btns .partner{
+        width: calc(50% - 7px);
+    }
+
+    footer .line_btns .link_btn{
+        order: 2;
+    }
+
+    footer .adress{
+        font-size: 13px;
+
+        margin-top: 30px;
+        padding-left: 24px;
+    }
+
+    footer .adress:before{
+        width: 17px;
+        height: 17px;
+
+        background-size: contain;
+    }
+}
